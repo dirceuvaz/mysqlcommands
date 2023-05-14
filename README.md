@@ -1,14 +1,6 @@
-#Como fazer backup de uma base de dados mysql via linha de comando
+##Como fazer backup de uma base de dados mysql via linha de comando
 
-### Acessar servidor via SSH
-
-No Windows eu recomendo o uso de algum bash ao invés do CMD, qualquer um que "emule um linux" vai ter o comando SSH, por exemplo o Git Bash que vem junto com o Git.
-
-Caso ainda prefira o Putty, sem problemas.
-
-Você pode baixar o Putty aqui: [http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
-
-Para usar siga este passo a passo: [https://www.secnet.com.br/blog/como-acessar-um-servidor-via-ssh-com-o-putty](https://www.secnet.com.br/blog/como-acessar-um-servidor-via-ssh-com-o-putty)
+### Acesse o servidor via SSH
 
 ### Acessando o Mysql
 
