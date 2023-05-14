@@ -1,4 +1,4 @@
-##Como fazer backup de uma base de dados mysql via linha de comando
+## Como fazer backup de uma base de dados mysql via linha de comando
 
 ### Acesse o servidor via SSH
 
