@@ -30,6 +30,7 @@ No terminal do servidor você vai rodar um comando parecido com o ```mysql```, e
 Isso ai vai imprimir no terminal o SQL todo, pode demorar e se for muito grande o banco, até travar, a melhor saída é armazenar tudo em um arquivo, para isso usamos um recurso no próprio linux:
 
  - ```mysqldump -u [usuario] -p [nome do banco] > [nome do arquivo]```
+ - ```mysqldump -uroot -p [nome do banco] > [nome do arquivo]```
 
 O backup é até mais rápido assim.
 
