@@ -33,5 +33,13 @@ Um exemplo com o banco alunos_do_erik, o usuário é alunos e a senha 123:
 A senha será solicitada e o arquivo alunos_do_erik.sql será criado no diretório que você estiver atualmente, eu recomando que você faça isso em um local que o ftp possa acessar, por exemplo a raiz do ftp do spp, para acessar este diretório rode o seguinte comando:
 
  - ```cd /home/super```
- - 
+
+### Restaurando Backup 
+
+O processo é semelhante ao comando usado para fazer backup, mas existe um detalhe que faz a total difirença e que as pessoas costuma esquecem, retire o comando mysqldump e deixa assim:
+
+ - ```mysql -u alunos -p alunos_do_erik < alunos_do_erik.sql```
+
+Agora aguarde o backup ser restaurado e depois ao terminar o restore, verifique nas tabelas do backup restaurado se os dados estão recuperados.
+
 Tutorial retirado do GitHub.
